@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background:
+        linear-gradient(rgba(240, 213, 213, 0.4), rgba(30, 245, 209, 0.4)),
+         url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 60px;
+    color: rgb(49, 99, 215);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 30%;
+    margin: 2rem;
+    cursor: pointer;
+    align-content: center;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: #f7de01;
+}
+.red {
+    background-color: #ff3657;
+}
+
+.green {
+    background-color: #bbff00;
+}
+
+.purple {
+    background-color: #51098b;
+}
+
+.flash {
+    background-color: rgb(11, 241, 7);
+}
+
+.userflash {
+    background-color: rgb(255, 0, 0);
+}
+
+.high-score {
+    font-family: Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(49, 99, 215);
+    padding-top: 10px;
+    width: 190px;
+    height: 45px;
+    border: 4px solid grey;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 2rem;
+    box-shadow: 1px 10px 10px grey;
+}
+
+#start-btn {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(49, 99, 215);
+    color: rgb(0, 0, 0);
+}
