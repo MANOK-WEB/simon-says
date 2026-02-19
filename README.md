@@ -30,9 +30,10 @@
     <h3></h3>
 
     <script src="script.js"></script>
-
 </body>
 </html>
+
+
 body {
     text-align: center;
     background:
